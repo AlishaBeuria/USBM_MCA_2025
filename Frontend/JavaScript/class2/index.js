@@ -28,10 +28,10 @@ console.log(isTeacher);
 
 //string
 
-let name='raja';
+let name='alisha';
 let city='jajpur';
 let age=20;
-let roll=26;
+let roll=6;
 let clg='usbm';
 let branch='mca'
 
