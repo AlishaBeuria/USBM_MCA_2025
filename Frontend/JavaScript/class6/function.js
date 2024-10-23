@@ -39,12 +39,70 @@ to perform a specific task*/
 
 
 //syntax:
-const printName=(name)=>{//const for constant value//=> is fat arrow
-    return`my name is ${name}`;
+//const printName=(name)=>{//const for constant value//=> is fat arrow
+  //  return`my name is ${name}`;
 
-}
-console.log(printName("alisha"));//call
+//}
+//console.log(printName("alisha"));//call
 //reference error means this is variable is not stored at the memory
 
 //done with   basics of function
 //callback 
+
+//function greeting(name,hour){
+  //if(hour < 12){
+    //return`hii goodmorning! ${name}`;
+
+  //}else if(hour < 18){
+    //return`hii good afternoon! ${name}`;
+
+  //}else{
+    //return`hii good evening! ${name}`;
+
+  //}
+
+//}
+//const result =greeting("alisha",11)
+//console.log(result);
+
+//example -2
+//simple calculator using function and switch statement
+//const calculator =(num1,num2,operation)=>{
+//switch(operation){
+  //case '+':
+    //return num1+num2;
+    //break;
+    //case'-':
+    //return num1-num2;
+    //break;
+    //case'*':
+    //return num1*num2;
+    //break;
+    //case'/':
+    //return num1/num2;
+    //break;
+    //default:
+      //return "invalid operation";
+
+//}
+//}
+//let output = calculator(4,2,"*");
+//console.log(output);
+
+
+//Example-3
+//const add=(a,b)=>a+b;
+//console.log(add(3,2));
+
+//rest parameter
+//const printNumbers=(...numbers)=>{
+  //return numbers;
+//}
+//let output=printNumbers(1,2,3,4,5,6,7,8,9);
+//console.log(output);
+
+//callback function
+//when afunction is called as an argument in an another function.
+
+
+
