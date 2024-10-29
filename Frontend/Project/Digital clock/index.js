@@ -1,17 +1,14 @@
-//function updateclock(){
-
-function updateclock(){
-    const clock= document.getElementById("clock");
-
-    const now=new Date();
-    let hours =now.getHours();
-    let minute=now.getMinute();
-    let seconds=now.getSeconds();
-
-    hours=hours <10
-
-clock.textContent=`${hours}:${minute}:${second}`;
-
+function updateClock(){
+    const clock=document.getElementById("clock");
+    const now =new Date();
+    let hour = now.getHours();
+    let minutes = now.getMinutes();
+    let second = now.getSeconds();
+     //hours=hours<10?"0" + hours:hour;
+    //minutes=minutes<10?"0" + minutes:minute;
+    //seconds=second<10?"0" + seconds:second;
+    const currentTime=`${hour}:${minutes}:${second}`;
+    document.getElementById('clock').textContent = currentTime ;
 }
-updateclock();//invoke or call
-setInterval(updateclock,1000)
+setInterval(updateClock,1000);
+updateClock()

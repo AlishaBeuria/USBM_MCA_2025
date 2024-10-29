@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(61, 104, 104);
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: rgb(15, 17, 16);
+}
+.container{
+    font-size: 48px;
+    color: #90bcbc;
+    background-color: #0a2f21;
+    padding: 20px;
+    border-radius: 10px;
+}
