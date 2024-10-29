@@ -103,6 +103,36 @@ to perform a specific task*/
 
 //callback function
 //when afunction is called as an argument in an another function.
+//syntax:
+//function say(name,callback){
+//console.log(`my name ${name}`);
+//return callback;
+//}
+//function hello(){
+ // return "hello"
+//}
 
+//callback authentication
+//const autentication = (enteredData, callback) => {
+  //return callback(enteredData);
+//}
+//const verify = (userData) => {
+  //let user = "user";
+  //let admin = "admin"
+  //if(userData === user){
+    //  return "she is a user";
+  //}else if (userData === admin) {
+    //  return "she is a admin";
+  //}else {
+    //  return "not a authorized person";
+  //}
+//}
+//console.log(autentication("alisha", verify));
 
+//asynchronous-if error happens in line1,it will not stop the execution and switch to next line. 
+
+//example:
+setTimeout(() => {
+  console.log("helllo");
+}, 5000);
 
