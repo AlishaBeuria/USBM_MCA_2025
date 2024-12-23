@@ -21,7 +21,7 @@
 // // fs.writeFileSync("README.txt","Sync file");
 
 // // //append file
-//   fs.appendFileSync("notes.txt", "im sushree");
+//   fs.appendFileSync("notes.txt", "im alisha");
 // // //To interact with file we need filesystem.
 // // //   console.log(data.toString());
 // //   //Create file
