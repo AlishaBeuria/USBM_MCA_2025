@@ -3,7 +3,7 @@ const path = require("path");
 console.log(path);
 
 const rootDir = path.resolve(__dirname ,"..");
-console.log(rootDir);//C:\Users\sushr\OneDrive\Desktop\USBM_MCA_2025\Backend
+console.log(rootDir);//C:\Users\alish\OneDrive\Desktop\USBM_MCA_2025\Backend
 
 // //adding paths
 // console.log(path.join("class-1","path.js"));//class-1\path.js
